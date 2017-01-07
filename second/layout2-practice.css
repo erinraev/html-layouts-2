@@ -1,0 +1,106 @@
+/*Container Styles*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+p {
+  margin: 0;
+  color: #4A4A4A;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+.container {
+  background: #D8D8D8;
+  position: absolute;
+  top: 0;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.box-1 {
+
+  background: #fff;
+  min-height: 300px;
+  margin: 35px 0;
+}
+
+.box-2 {
+  background: #fff;
+  min-height: 600px;
+  margin: 30px 0;
+}
+
+.footer {
+  background: #4A4A4A;
+  color: #fff;
+  font-size: 1.1em;
+  height: 90px;
+  margin-top: 50px;
+}
+
+.text-wrapper {
+  padding: 25px;
+  height: inherit;
+}
+
+
+/*Body Styles*/
+
+.buttons {
+padding-top: 50px;
+
+}
+
+.btn {
+  display: inline-block;
+  height: 50px;
+  width: 120px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+  border: 1px solid #D8D8D8;
+  margin: 0 5px;
+
+}
+
+span {
+  display: block;
+  padding-top: 12px;
+}
+.red-btn {
+  background: #E50000;
+
+}
+
+.blue-btn {
+  background: #328BE9;
+}
+
+.image-box {
+  height: 350px;
+  background-image: url('http://www.ihomefinder.com/wp-content/uploads/2013/04/SLCDowntown.jpeg');
+  background-size: cover;
+}
+
+.text {
+  padding-top: 30px;
+}
+
+.footer-nav {
+  float: right;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 0 25px;
+}
